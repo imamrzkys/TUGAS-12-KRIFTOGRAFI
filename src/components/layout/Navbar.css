@@ -342,12 +342,14 @@ html.light .navbar__drawer-link--active {
     padding: 0 10px;
     gap: 8px;
     height: 56px;
+    justify-content: space-between;
   }
 
   .navbar__brand {
     gap: 6px;
     flex-shrink: 1;
     min-width: 0;
+    flex: 1;
   }
 
   .navbar__logo-wrap {
@@ -384,6 +386,7 @@ html.light .navbar__drawer-link--active {
   .navbar__actions {
     gap: 6px;
     flex-shrink: 0;
+    margin-left: auto;
   }
 
   .navbar__theme-toggle {
