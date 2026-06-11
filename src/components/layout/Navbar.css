@@ -333,15 +333,83 @@ html.light .navbar__drawer-link--active {
     max-width: 480px;
   }
 
+  .navbar__inner {
+    padding: 0 10px;
+    gap: 8px;
+    height: 56px;
+  }
+
+  .navbar__brand {
+    gap: 6px;
+    flex-shrink: 1;
+    min-width: 0;
+  }
+
+  .navbar__logo-wrap {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+  }
+
+  .navbar__logo-wrap svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .navbar__brand-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .navbar__title {
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+  .navbar__subtitle {
+    font-size: 0.48rem;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+  }
+
   .navbar__links  { display: none; }
   .navbar__sep    { display: none; }
-  .navbar__hamburger { display: flex; }
-  .navbar__drawer    { display: flex; }
+  
+  .navbar__actions {
+    gap: 6px;
+    flex-shrink: 0;
+  }
 
-  .navbar__theme-toggle span { display: none; }
-  .navbar__theme-toggle { padding: 6px 9px; }
+  .navbar__theme-toggle {
+    padding: 6px 8px;
+    min-width: 0;
+  }
 
-  .navbar__inner { padding: 0 8px 0 10px; }
+  .navbar__theme-toggle span { 
+    display: none; 
+  }
+
+  .navbar__theme-toggle svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .navbar__hamburger { 
+    display: flex;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .navbar__hamburger-icon,
+  .navbar__hamburger-icon::before,
+  .navbar__hamburger-icon::after {
+    width: 12px;
+  }
+
+  .navbar__drawer { 
+    display: flex; 
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
