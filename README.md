@@ -172,7 +172,7 @@ Project ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE
 ## 👨‍💻 Author
 
 **Imam Rizki Saputra**  
-📧 Email: imamrzkys@gmail.com  
+📧 Email: imamrizkysyahputra123@gmail.com  
 🔗 GitHub: [@imamrzkys](https://github.com/imamrzkys)
 
 ---
