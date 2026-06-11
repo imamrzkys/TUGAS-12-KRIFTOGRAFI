@@ -14,7 +14,7 @@ export default function Footer({ className = '' }) {
         </p>
         <div className="footer__links">
           <a
-            href="https://github.com"
+            href="https://github.com/imamrzkys/TUGAS-12-KRIFTOGRAFI"
             target="_blank"
             rel="noopener noreferrer"
             className="footer__link"
